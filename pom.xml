@@ -32,6 +32,7 @@
         </repository>
     </distributionManagement>     -->
 
+	<distributionManagement>
 	<profiles>
   <profile>
     <id>souravdomain-customer_amazon</id>
