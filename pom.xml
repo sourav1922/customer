@@ -31,6 +31,14 @@
             <url>http://repourl/repository/maven-releases/</url>
         </repository>
     </distributionManagement>     -->
+
+	<distributionManagement>
+  <repository>
+    <id>souravdomain-customer_amazon</id>
+    <name>souravdomain-customer_amazon</name>
+    <url>https://souravdomain-314869538505.d.codeartifact.us-east-2.amazonaws.com/maven/customer_amazon/</url>
+  </repository>
+</distributionManagement>
 	
 	<dependencies>
 		<dependency>
