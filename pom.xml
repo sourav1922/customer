@@ -28,7 +28,7 @@
      <distributionManagement>
         <repository>
             <id>souravdomain-customer_amazon</id>
-            <url>http:souravdomain-314869538505.d.codeartifact.us-east-2.amazonaws.com/maven/customer_amazon/</url>
+            <url>https//:souravdomain-314869538505.d.codeartifact.us-east-2.amazonaws.com/maven/customer_amazon/</url>
         </repository>
     </distributionManagement>     
 	
