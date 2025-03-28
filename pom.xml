@@ -25,28 +25,12 @@
    		<sonar.language>java</sonar.language>
 	</properties>
 	
-<!--     <distributionManagement>
+     <distributionManagement>
         <repository>
-            <id>maven-releases</id>
-            <url>http://repourl/repository/maven-releases/</url>
+            <id>souravdomain-customer_amazon</id>
+            <url>http:souravdomain-314869538505.d.codeartifact.us-east-2.amazonaws.com/maven/customer_amazon/</url>
         </repository>
-    </distributionManagement>     -->
-
-	<distributionManagement>
-	<profiles>
-  <profile>
-    <id>souravdomain-customer_amazon</id>
-    <activation>
-      <activeByDefault>true</activeByDefault>
-    </activation>
-    <repositories>
-      <repository>
-        <id>souravdomain-customer_amazon</id>
-        <url>https://souravdomain-314869538505.d.codeartifact.us-east-2.amazonaws.com/maven/customer_amazon/</url>
-      </repository>
-    </repositories>
-  </profile>
-</profiles>
+    </distributionManagement>     
 	
 	<dependencies>
 		<dependency>
